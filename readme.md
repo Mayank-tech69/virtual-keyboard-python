@@ -70,14 +70,3 @@ Contributions are welcome! Feel free to fork this repository, submit issues, and
 
 ---
 
-<h2>📞 Contact</h2>
-
-<ul>
-    <li>👤 <b>Author:</b> Mayank Choubey</li>
-    <li>📧 <b>Email:</b> (Add your email if you want)</li>
-    <li>🌐 <b>GitHub:</b> <a href="https://github.com/Mayank-tech69">Mayank-tech69</a></li>
-</ul>
-
----
-
-<h4 align="center">🚀 Happy Typing! 🚀</h4>
