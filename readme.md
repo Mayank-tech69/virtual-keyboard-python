@@ -5,8 +5,20 @@
 <p align="center">A software-based virtual keyboard designed to provide an accessible typing solution.</p>
 
 ---
+---
 
-<h2>📋 Overview</h2>
+## 📑 Table of Contents
+1. [Overview](#-overview)
+2. [Features](#-features)
+3. [Technologies Used](#-technologies-used)
+4. [Usage](#usage)
+5. [Future Scope](#-future-scope)
+6. [Contributing](#-contributing)
+7. [License](#-license)
+
+
+
+<h2 id="-overview">📋 Overview</h2>
 
 <p>
 The Virtual Keyboard is a software solution that simulates the functionality of a physical keyboard. 
@@ -14,8 +26,9 @@ It allows users to type using mouse clicks or touch inputs, making it useful for
 </p>
 
 ---
+---
 
-<h2>✨ Features</h2>
+<h2 id="-features">✨ Features</h2>
 
 <ul>
     <li>✅ User-Friendly Interface: Simple and intuitive QWERTY layout.</li>
@@ -24,18 +37,28 @@ It allows users to type using mouse clicks or touch inputs, making it useful for
     <li>✅ Accessibility: Designed to assist users who cannot use physical keyboards.</li>
 </ul>
 
+
+---
 ---
 
-<h2>⚙️ Technologies Used</h2>
+<h2 id="-technologies-used">⚙️ Technologies Used</h2>
 
 <ul>
     <li>🟡 <b>Programming Language:</b> Python</li>
-    <li>📦 <b>Libraries:</b> openCV, Mediapipe</li>
+    <li>📦 <b>Libraries:</b></li>
+    <ul>
+        <li>openCV</li>
+        <li>Mediapipe</li>
+        <li>numpy</li>
+        <li>math</li>
+        <li>time</li>
+    </ul>
 </ul>
 
 ---
+---
 
-<h2>💻 Usage</h2>
+<h2 id="usage">💻 Usage</h2>
 
 <ol>
     <li>Launch the application and start typing using the virtual keys.</li>
@@ -44,8 +67,9 @@ It allows users to type using mouse clicks or touch inputs, making it useful for
 </ol>
 
 ---
+---
 
-<h2>🌱 Future Scope</h2>
+<h2 id="-future-scope">🌱 Future Scope</h2>
 
 <ul>
     <li>🔢 Numeric keys and special characters</li>
@@ -55,18 +79,21 @@ It allows users to type using mouse clicks or touch inputs, making it useful for
 </ul>
 
 ---
+---
 
-<h2>🤝 Contributing</h2>
+<h2 id="-contributing">🤝 Contributing</h2>
 
 <p>
 Contributions are welcome! Feel free to fork this repository, submit issues, and make pull requests.
 </p>
 
 ---
+---
 
-<h2>📝 License</h2>
+<h2 id="-license">📝 License</h2>
 
 <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 
+---
 ---
 
