@@ -1,5 +1,7 @@
 #importing libraries
 import cv2
+import math
+import numpy as np
 import mediapipe as mp
 from pynput.keyboard import Controller
 
@@ -50,6 +52,39 @@ def drawAll(img, buttonList, numberList):
 
     return img
 
+# Generate buttons
+buttonList = []
+buttonList1 = []
+numberList = []
+
+# Number row with DEL ALL
+for j, key in enumerate(numberKeys):
+
+    numberList.append(Button([80 * j + 10, 10], key))  # Top row
+
+# Uppercase letters
+for i in range(len(keys)):
+    for j, key in enumerate(keys[i]):
+        buttonList.append(Button([80 * j + 10, 80 * (i + 1) + 10], key))
+
+# Lowercase letters
+for i in range(len(keys1)):
+    for j, key in enumerate(keys1[i]):
+        buttonList1.append(Button([80 * j + 10, 80 * (i + 1) + 10], key))
+
+app = 0
+delay = 0
+
+
+
+
+def calculate_distance(x1, y1, x2, y2):
+    distance = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
+    return distance
+
+x = [300, 245, 200, 170, 145, 130, 112, 103, 93, 87, 80, 75, 70, 67, 62, 59, 57]
+y = [20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100]
+coff = np.polyfit(x, y, 2)
 
 
 
