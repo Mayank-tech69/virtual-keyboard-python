@@ -97,6 +97,62 @@ while True:
     results = hands.process(img)
     landmarks = []
 
+    # Draw keys
+    if app == 0:
+        frame = drawAll(frame, buttonList, numberList)
+        currentList = buttonList
+        r = "up"
+    if app == 1:
+        frame = drawAll(frame, buttonList1, numberList)
+        currentList = buttonList1
+        r = "down"
+
+    # Get hand landmarks
+    if results.multi_hand_landmarks:
+        for hn in results.multi_hand_landmarks:
+            for id, lm in enumerate(hn.landmarks):
+                hl, wl, cl = frame.shape
+                cx, cy = int(lm.x * wl), int(lm.y * hl)
+                landmarks.append([id, cx, cy])
+
+
+
+    # Detect key presses
+    if landmark != 0:
+        try:
+            x5, y5 = landmarks[5][1], landmarks[5][2]
+            x17, y17 = landmarks[17][1], landmarks[17][2]
+            dis = calculate_distance(x5, y5, x17, y17)
+            A, B, C = coff
+            distanceCM = A * dis ** 2 + B * dis + C
+            if 20 < distanceCM < 50:
+                x, y = landmark[8][1], landmark[8][2]
+                x2, y2 = landmark[6][1], landmark[6][2]
+                x3, y3 = landmark[12][1], landmark[12][2]
+                cv2.circle(frame, (x, y), 20, (255, 0, 255), cv2.FILLED)
+                cv2.circle(frame, (x3, y3), 20, (255, 0, 255), cv2.FILLED)
+
+                if y2 > y:
+                    # Number row + DEL ALL
+                    for button in numberList:
+                        xb, yb = button.pos
+                        wb, hb = button.size
+                        if (xb < x < xb + wb) and (yb < y < yb + hb):
+                            cv2.rectangle(frame, (xb - 5, yb - 5), (xb + wb + 5, yb + hb + 5), (160, 160, 160),
+                                          cv2.FILLED)
+                            cv2.putText(frame, button.text, (xb + 20, yb + 65), cv2.FONT_HERSHEY_PLAIN, 4,
+                                        (255, 255, 255), 4)
+                            dis = calculate_distance(x, y, x3, y3)
+                            if dis < 50 and delay == 0:
+                                k = button.text
+                                if k == "DEL":
+                                    text = ""   # Clear entire text
+                                    keyboard.press('\b')  # Press backspace to clear in text editor
+                                    keyboard.release('\b')  # Release backspace
+                                else:
+                                    text += k
+                                    keyboard.press(k)
+
     if results.multi_hand_landmarks:
         for hand_landmarks in results.multi_hand_landmarks:
             for id, lm in enumerate(hand_landmarks.landmark):
