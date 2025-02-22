@@ -27,6 +27,30 @@ keys1 = [["q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "CL"],
          ["z", "x", "c", "v", "b", "n", "m", ",", ".", "/", "APR"]]
 
 
+def drawAll(img, buttonList, numberList):
+    # Draw number row + DEL ALL
+    for button in numberList:
+        x, y = button.pos
+        w, h = button.size
+        cv2.rectangle(img, button.pos, (x + w, y + h), (0, 0, 255), cv2.FILLED)  # Red
+
+        # Adjust font size and positioning for DEL ALL
+        if button.text == "DEL":
+            cv2.putText(img, button.text, (x + 15, y + 40), cv2.FONT_HERSHEY_PLAIN, 2, (255, 255, 255), 2)
+
+        else:
+            cv2.putText(img, button.text, (x + 20, y + 40), cv2.FONT_HERSHEY_PLAIN, 2, (255, 255, 255), 2)
+
+    # Draw letter keys
+    for button in buttonList:
+        x, y = button.pos
+        w, h = button.size
+        cv2.rectangle(img, button.pos, (x + w, y + h), (0, 0, 255), cv2.FILLED)  # Red
+        cv2.putText(img, button.text, (x + 10, y + 40), cv2.FONT_HERSHEY_PLAIN, 2, (255, 255, 255), 2)
+
+    return img
+
+
 
 
 while True:
