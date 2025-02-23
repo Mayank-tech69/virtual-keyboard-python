@@ -27,3 +27,14 @@
 7. [Contributing](#-contributing)
 8. [License](#-license)
 </p>
+<h2 id="-overview">📋 Overview</h2>
+
+<p>
+
+Welcome to the *Virtual Keyboard* – a revolutionary software-based keyboard that allows users to type using hand gestures! 🤲💻 This project uses *OpenCV* for real-time image processing and *Mediapipe* for precise hand tracking, offering a *gesture-controlled keyboard* for users with physical limitations or anyone who prefers hands-free typing. 👋✍
+
+Simply use your hands in front of a webcam, and the system will detect gestures that correspond to keys on a virtual QWERTY layout. No more physical typing – just intuitive hand gestures! 🎉
+</p>
+
+---
+---
