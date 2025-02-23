@@ -16,3 +16,14 @@
 <p align="center">
   <b>Let's explore the future of typing together! 🌍✨</b>
 </p>
+
+## 📑 *Table of Contents*
+1. [Overview](#-overview)
+2. [Features](#-features)
+3. [Technologies Used](#-technologies-used)
+4. [How it Works](#-how-it-works)
+5. [Usage](#usage)
+6. [Future Scope](#-future-scope)
+7. [Contributing](#-contributing)
+8. [License](#-license)
+</p>
