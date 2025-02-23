@@ -127,3 +127,16 @@ Simply use your hands in front of a webcam, and the system will detect gestures 
 
 ---
 ---
+<h2 id="-contributing">🤝 Contributing</h2>
+
+
+<p>We welcome contributions! 🧑‍🤝‍🧑 If you want to improve this project, you can:</p>
+
+<ul>
+    <li>💡 Fork the repository and submit a pull request with your improvements.</li>
+    <li>🐞 Report issues, suggest features, or fix bugs in the <code>issues</code> section.</li>
+    <li>📝 Add more documentation or tutorials to improve understanding for newcomers.</li>
+</ul>
+
+<p>Please follow the coding standards, and make sure to test thoroughly before submitting pull requests. 🙌</p>
+
