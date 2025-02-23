@@ -59,3 +59,42 @@ Simply use your hands in front of a webcam, and the system will detect gestures 
 ---
 ---
 
+<h2 id="-technologies-used"><b>⚙ Technologies Used</b></h2>
+
+<ul>
+    <li>🟡 <b>Programming Language</b>: <code>Python</code></li>
+    <li>📦 <b>Libraries</b>:
+        <ul>
+            <li>🖼 <b>openCV</b> – Image processing for real-time webcam capture.</li>
+            <li>🤖 <b>Mediapipe</b> – Hand gesture recognition and landmark tracking.</li>
+            <li>🔢 <b>numpy</b> – Array manipulation and data handling.</li>
+            <li>📏 <b>math</b> – Geometric calculations for gesture recognition accuracy.</li>
+            <li>⏱ <b>time</b> – Time management for controlling gesture input intervals.</li>
+        </ul>
+    </li>
+</ul>
+
+---
+---
+<h2 id="-how-it-works"><b>🔧 How it Works</b></h2>
+
+<p>This project integrates hand gesture recognition with <b>OpenCV</b> and <b>Mediapipe</b> to detect and track your hands. 🤲👀 The core mechanics include:</p>
+
+<ul>
+    <li>👋 <b>Hand Tracking</b>: OpenCV captures your hand via the webcam in real-time.</li>
+    <li>🤖 <b>Gesture Recognition</b>: Mediapipe processes the hand landmarks, detecting gestures like a finger pointing or a fist.</li>
+    <li>🔢 <b>Key Detection</b>: Each gesture corresponds to a key on the virtual keyboard.</li>
+    <li>🖱 <b>Real-Time Key Press Simulation</b>: The selected key is "pressed" on the screen, allowing users to type hands-free.</li>
+</ul>
+
+<p>This interactive and dynamic system can recognize hand gestures such as:</p>
+
+<ul>
+    <li>👉 <b>Pointing</b> one finger to select individual keys.</li>
+    <li>✋ <b> clicking</b> use both finger to click the keys</li>
+    <li>🤞 <b>Specific finger movements</b> to type characters on the screen.</li>
+</ul>
+
+---
+---
+
