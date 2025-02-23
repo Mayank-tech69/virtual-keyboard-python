@@ -109,3 +109,21 @@ Simply use your hands in front of a webcam, and the system will detect gestures 
     <li>6. Press <b>Space</b> for spaces, <b>Backspace</b> to delete, and <b>Enter</b> to submit text. 🚀</li>
     <li>7. Exit the program by closing the window. 🔒</li>
 </ul>
+
+---
+---
+
+
+
+<h2 id="future-scope">🌱 Future Scope</h2>
+
+<ul>
+    <li>🎨 <b>Customizable Themes</b>: Implement Light/Dark mode and various color themes for personalized experiences. 🌈</li>
+    <li>🌍 <b>Multilingual Support</b>: Expand compatibility with diverse keyboard layouts (e.g., AZERTY, QWERTZ, etc.). 🗣</li>
+    <li>🌐 <b>Web Integration</b>: Incorporate the virtual keyboard into web applications for seamless online typing. 🌎</li>
+    <li>💬 <b>Voice Control Integration</b>: Enable hands-free interaction using voice commands for accessibility. 🎙</li>
+    <li> <b>AR/VR Integration</b>: Develop a futuristic typing experience with Augmented and Virtual Reality, allowing users to type in immersive environments. 🕶</li>
+</ul>
+
+---
+---
