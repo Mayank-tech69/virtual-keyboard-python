@@ -98,3 +98,14 @@ Simply use your hands in front of a webcam, and the system will detect gestures 
 ---
 ---
 
+<h2 id="usage">💻 Usage</h2>
+
+<ul>
+    <li>1. Clone the repository or download the source code. 🧑‍💻</li>
+    <li>2. Ensure you have Python 3.x installed along with the required dependencies. Run: <code>pip install -r requirements.txt</code>.</li>
+    <li>3. Launch the application script to activate the virtual keyboard. 🔑</li>
+    <li>4. Position your hand in front of the webcam. 👋</li>
+    <li>5. Use hand gestures to simulate key presses on the virtual keyboard! Type using gestures for each key. ⌨</li>
+    <li>6. Press <b>Space</b> for spaces, <b>Backspace</b> to delete, and <b>Enter</b> to submit text. 🚀</li>
+    <li>7. Exit the program by closing the window. 🔒</li>
+</ul>
