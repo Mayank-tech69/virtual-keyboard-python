@@ -140,3 +140,13 @@ Simply use your hands in front of a webcam, and the system will detect gestures 
 
 <p>Please follow the coding standards, and make sure to test thoroughly before submitting pull requests. 🙌</p>
 
+---
+--
+<h2 id="-license">📝 License</h2>
+
+<p>This project is licensed under the <a href="LICENSE"><b>MIT License</b></a>. Feel free to use, modify, and distribute! 🚀</p>
+
+---
+---
+
+<p align="center"><b>Happy Coding!</b>  <p align="center"> ✨💻 Let's create a more accessible digital world! 🌍</p
