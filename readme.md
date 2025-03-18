@@ -50,7 +50,6 @@ Simply use your hands in front of a webcam, and the system will detect gestures 
     <li>♿ <b>Accessibility</b>: Ideal for people with physical disabilities or those in need of alternative input methods.</li>
     <li</li>
     <li>💡 <b>Light and Cool Features</b>: Enjoy dynamic visual effects with each keystroke, giving a futuristic touch to your typing experience.</li>
-    <li>🎮 <b>Gamified Typing</b>: Improve your typing speed with fun challenges and interactive typing games.</li>
     <li</li>
 </ul>
 
@@ -87,13 +86,7 @@ Simply use your hands in front of a webcam, and the system will detect gestures 
     <li>🖱 <b>Real-Time Key Press Simulation</b>: The selected key is "pressed" on the screen, allowing users to type hands-free.</li>
 </ul>
 
-<p>This interactive and dynamic system can recognize hand gestures such as:</p>
 
-<ul>
-    <li>👉 <b>Pointing</b> one finger to select individual keys.</li>
-    <li>✋ <b> clicking</b> use both finger to click the keys</li>
-    <li>🤞 <b>Specific finger movements</b> to type characters on the screen.</li>
-</ul>
 
 ---
 ---

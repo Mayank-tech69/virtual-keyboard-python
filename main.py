@@ -1,6 +1,6 @@
 import cv2 
 import mediapipe as mp 
-import numpy as np 
+import numpy as np
 from time import sleep
 import math 
 from pynput.keyboard import Controller
